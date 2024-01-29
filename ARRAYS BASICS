@@ -1,0 +1,21 @@
+This file basically gives you an idea on how array operations can be done in data structure problems and usecases.
+1)Initialization(init):It is used for intializing the number of elements in array.[ time complexity = o(n) , space complexity = o(n)]
+
+
+2)Set : It is used to remove an element from an array and keep another element at that position. [ time complexity = o(1), space complexity = o(1)]
+ NB: Note this is in the case of one value , if we are using for loop for setting a number of elements then time and space complexity becomes o(n)
+
+3)Get : It is used to get an element from an array [time complexity and space complexity is o(1) ]
+  NB: note in the case of a loop were we are getting a  set of elements from an array time complexity becomes o(n) and space complexity becomes o(1)
+
+
+4)Traverse : Looping through each element in the array is called traversing [time complexity = o(n) and space complexity = o(1)]
+
+
+5)a)(static array)Insert : Inserting an element at the end of an array as we cannot insert an element directly in an array we have to make a new array and copy all the elements
+ to the array and then add the element and then delete existing array.[time complexity = o(n), space complexity = o(1)]
+ b) In dynamic array case the space is assigned double in the begining  itself so inserting one element will have space and time complexity as o(1) itself,but if in a case 
+    we are inserting more element than the space then we have to make another array which is double the space and insert elements there so the space and time 
+    complexity is o (n)
+
+6)Delete : Deleting an element from an array .[time complexity = o(n) for worst case and o(1) for normal case and space complexity = o(1)]
